@@ -30,7 +30,7 @@ class ModelManager:
         self.models_dir.mkdir(exist_ok=True)
         
         # GitHub repository configuration
-        self.github_repo = "KaitlynKK/fed-learning7-belalandkaitlyn"
+        self.github_repo = "KaitlynKK/fed-learning2-belal-kaitlyn"
         self.github_branch = "main"
         self.github_models_path = "static/output"
         

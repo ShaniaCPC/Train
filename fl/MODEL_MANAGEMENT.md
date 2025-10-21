@@ -47,7 +47,7 @@ The app will automatically:
 ## Model Sources
 
 ### GitHub (Default)
-- **Repository**: `KaitlynKK/fed-learning7-belalandkaitlyn` (public)
+- **Repository**: `KaitlynKK/fed-learning2-belal-kaitlyn` (public)
 - **Path**: `static/output/`
 - **Default Model**: `final_model.pt`
 - **Auto-update**: Enabled by default
@@ -289,7 +289,7 @@ python model_cli.py load
 
 ```bash
 # Check network connectivity
-curl -I https://raw.githubusercontent.com/KaitlynKK/fed-learning7-belalandkaitlyn/main/static/output/
+curl -I https://raw.githubusercontent.com/KaitlynKK/fed-learning2-belal-kaitlyn/main/static/output/
 
 # Use local model as fallback
 python model_cli.py config --source local --local-path "models/fallback.pt"
